@@ -344,6 +344,7 @@ h2.title {
 }
 
 .footer {
+  min-height: 166px;
   background-color: #1a1a1a;
   padding: 56px 0 70px;
 }
@@ -365,6 +366,15 @@ address {
   font-style: normal;
 }
 
-address a {
+footer a {
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
   text-decoration: none;
+}
+
+.underlined {
+  text-decoration: underline;
 }
